@@ -4,11 +4,8 @@ compatibility_date = "2026-11-17"
 workers_dev = true
 compatibility_flags = ["nodejs_compat"]
 
-# QQ音乐定时cookie刷新
 [triggers]
 crons = ["* */4 * * *"]
-
-
 
 [observability]
 enabled = false
