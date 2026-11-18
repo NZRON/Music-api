@@ -5,9 +5,9 @@ workers_dev = true
 compatibility_flags = ["nodejs_compat"]
 
 # KV 存储绑定 (部署后在 Dashboard 绑定，或取消注释并填入 ID)
-# [[kv_namespaces]]
-# binding = "METING_KV"
-# id = "YOUR_KV_NAMESPACE_ID_HERE"
+[[kv_namespaces]]
+binding = "METING_KV"
+id = "bd22a94268b040e0af47f97cc10ee0ec"
 
 # QQ音乐定时cookie刷新
 [triggers]
